@@ -26,10 +26,45 @@
   }
 
   .hero-title {
-    font-size: 5.6rem;
+    font-size: 3.5rem;
     font-weight: 700;
-    margin-bottom: 3.2rem;
+    margin-bottom: 1.5rem;
     text-align: left;
+
+    @include respond(tab-land) {
+      font-size: 4rem;
+    }
+    @include respond(tab-port) {
+      font-size: 3.6rem;
+      text-align: center;
+    }
+    @include respond(phone) {
+      font-size: 3.5rem;
+      line-height: 1.5;
+    }
+    @include respond(phone-xs) {
+      font-size: 2.8rem;
+    }
+  }
+
+  .hero-desc {
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin-bottom: 3.5rem;
+    text-align: left;
+
+    a {
+      font-size: 3.2rem;
+      font-weight: 700;
+      margin-bottom: 3.5rem;
+      text-align: left;
+      border-bottom: 3px solid #272341;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(2);
+      }
+    }
 
     @include respond(tab-land) {
       font-size: 4rem;
