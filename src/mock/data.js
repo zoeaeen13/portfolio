@@ -23,7 +23,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'avatar.jpg',
+  img: 'about.jpg',
   resume: 'https://www.cakeresume.com/zoeaeen13-frontend',
 };
 

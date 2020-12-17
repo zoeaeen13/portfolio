@@ -26,7 +26,6 @@ function App() {
 
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
-      <SEO />
       <Hero />
       <About />
       <Projects />

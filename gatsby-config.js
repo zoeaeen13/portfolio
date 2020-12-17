@@ -6,7 +6,7 @@ module.exports = {
     description:
       "a Designer & Front-end Developer, I make Application for better life.",
     url: "https://zoeaeen13.github.io/portfolio",
-    image: "favicon-32x32.png",
+    image: "",
     twitterUsername: "@zoeaeen13",
   },
   plugins: [

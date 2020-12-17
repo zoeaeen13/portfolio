@@ -29,6 +29,7 @@
       align-items: center;
       justify-content: center;
 
+
       @include respond(tab-port) {
         padding-bottom: 6.4rem;
       }
