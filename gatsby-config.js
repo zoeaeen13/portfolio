@@ -1,4 +1,14 @@
 module.exports = {
+  pathPrefix: '/portfolio',
+  siteMetadata: {
+    title: "Meng-Hua Yu",
+    titleTemplate: "%s · Front-end Developer",
+    description:
+      "a Designer & Front-end Developer, I make Application for better life.",
+    url: "https://zoeaeen13.github.io/portfolio",
+    image: "favicon-32x32.png",
+    twitterUsername: "@zoeaeen13",
+  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
