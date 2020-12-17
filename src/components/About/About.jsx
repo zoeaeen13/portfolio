@@ -39,10 +39,10 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">I am a freelance web developer.</p>
                 <p className="about-wrapper__info-text">
-                Previously, I learned Kotlin at <a href="https://www.facebook.com/GoodideasStudio/">Good-Ideas Studio</a>, an IT-themed co-learning community located in Tainan. Six months ago, I joined <a href="https://bootcamp.lidemy.com/">Lidemy mentor program</a>. I'm self taught myself web development.
+                Previously, I learned Kotlin at <a href="https://www.facebook.com/GoodideasStudio/">Good-Ideas Studio</a>, an IT-themed co-learning community located in Tainan. In June 2020, I joined <a href="https://bootcamp.lidemy.com/">Lidemy Mentor Program</a> to teach myself web development.
                 </p>
                 <p className="about-wrapper__info-text">
-                  I'm a positive learner, software developer, outdoor enthusiast, and disciplined yoga practicer.
+                  I'm a positive learner, software developer, outdoor enthusiast, and disciplined yoga practicer. Besides, I love <a href="https://zoeaeen13.github.io/">recording my life</a> and it helps myself internalize thoughts.
                 </p>
                 <p className="about-wrapper__info-text">
                   Passionate about learning programming and involving in projects for real impact.

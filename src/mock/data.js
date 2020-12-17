@@ -2,6 +2,9 @@ import { nanoid } from 'nanoid';
 import project from '../images/project.jpg'
 import projectTitch from '../images/project_twitch.gif';
 import projectMessageBoard from '../images/project_messageboard.gif';
+import projectReduxBlog from '../images/project_reduxBlog.gif';
+import projectReactTodolist from '../images/project_reactTodolist.gif';
+
 
 // HEAD DATA
 export const headData = {
@@ -28,38 +31,50 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: project,
-    title: '',
-    info: '',
-    info2: '',
-    url: 'https://nccucentralra.blogspot.com/',
-    repo: '', // if no repo, the button will not show up
+    img: projectReduxBlog,
+    title: 'Redux: Blog',
+    info: 'A blog system enable users to add new posts.',
+    info2: '- Involved in reworking on single page applications using React, ThunkRedux, React-Router',
+    url: 'https://zoeaeen13.github.io/lidemy-week24-redux-blog/#/',
+    repo: '',
+  },
+  {
+    id: nanoid(),
+    img: projectReactTodolist,
+    title: 'React: Todo List',
+    info: 'A todo list with React, JSX, styled-component and hooks.',
+    info2: '- Developing the presentational styled components with SASS',
+    info3: '- Using hooks for state and effects',
+    url: 'https://zoeaeen13.github.io/lidemy-week21-react-todolist/',
+    repo: '',
   },
   {
     id: nanoid(),
     img: projectMessageBoard,
-    title: 'PHP 留言板系統',
-    info: '具備會員功能的留言板， 使用 PDO prepare statement 存取 MySQL 資料庫',
-    info2: '佈署自行架設 AWS EC2 Ubuntu 主機',
+    title: 'PHP: Message Board',
+    info: 'A message board with menber management system.',
+    info2: '- Using PDO prepared statement to write queries to prevent SQL Injection',
     url: 'http://oldfish.tw/Demo/week11/messageBoard/index.php',
-    repo: 'https://github.com/zoeaeen13/Demo/tree/master/week11/messageBoard',
+    repo: '',
   },
   {
     id: nanoid(),
     img: projectTitch,
-    title: 'Twitch 遊戲實況平台',
-    info: '串接 Twitch API 顯示出目前最熱門的 5 個遊戲及實況',
-    info2: '使用 Fetch 進行前後端串接',
+    title: 'Twitch Live Streams',
+    info: `A information platform to show live streams of five top games on Twitch.`,
+    info2: '- Fetching data from Restful APIs',
     url: 'http://mentor-program.co/mtr04group6/zoeaeen13/week13/hw3/index.html',
     repo: '', 
   },
 ];
 
+
+
 // CONTACT DATA
 export const contactData = {
-  cta: 'ymh.961026@gmail.com',
+  cta: '',
   btn: '',
-  email: '',
+  email: 'ymh.961026@gmail.com',
 };
 
 // FOOTER DATA

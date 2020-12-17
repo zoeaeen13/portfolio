@@ -21,6 +21,16 @@
 
     &__text {
       margin-bottom: 2.5rem;
+
+      span {
+        padding: 0 5px 2px 5px;
+        cursor: pointer;
+        transition: all ease-in .2s;
+
+        &:hover {
+          border-bottom: 2.3px solid white;
+        }
+      }
     }
 
     &__text,

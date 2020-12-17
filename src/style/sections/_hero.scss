@@ -60,9 +60,11 @@
       text-align: left;
       border-bottom: 3px solid #272341;
       cursor: pointer;
+      transition: ease-in all .2s;
 
       &:hover {
-        transform: scale(2);
+        color:#767676;
+        border-color: #767676;
       }
     }
 
