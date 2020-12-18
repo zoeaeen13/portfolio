@@ -19,26 +19,34 @@
   }
 
   .about-wrapper {
+    display: flex;
+    align-items: center;
     @include respond(phone) {
       padding-bottom: 5rem;
     }
 
     &__image {
-      display: flex;
-      height: 100%;
-      align-items: center;
-      justify-content: center;
+      width: 72%;
+      height:0;
+      padding-bottom: 48%;
+      margin: 0 auto;
+      vertical-align: center;
+      img {
+        width: 90%;
+      }
 
 
-      @include respond(tab-port) {
-        padding-bottom: 6.4rem;
-      }
-      @include respond(tab-land) {
-        height: 100%;
-      }
+      // @include respond(tab-port) {
+      //   padding-bottom: 6.4rem;
+      // }
+      // @include respond(tab-land) {
+      //   width: 100%;
+      //   margin: 0;
+      // }
     }
 
     &__info {
+      padding-top: 15px;
       display: flex;
       height: 100%;
       justify-content: center;

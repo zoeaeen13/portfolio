@@ -4,7 +4,7 @@ import projectTitch from '../images/project_twitch.gif';
 import projectMessageBoard from '../images/project_messageboard.gif';
 import projectReduxBlog from '../images/project_reduxBlog.gif';
 import projectReactTodolist from '../images/project_reactTodolist.gif';
-
+import imgAbout from '../images/about.jpg';
 
 // HEAD DATA
 export const headData = {
@@ -23,7 +23,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'about.jpg',
+  img: imgAbout,
   resume: 'https://www.cakeresume.com/zoeaeen13-frontend',
 };
 
