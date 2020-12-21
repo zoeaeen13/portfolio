@@ -30,7 +30,7 @@ const Header = () => {
             <span className="text-color-main">{name || 'Your Name'}</span>
           </h1>
           <h3 className="hero-desc">
-            {"a Designer & Front-end Developer, I make "}<Link to={"projects"} smooth duration={1000}>Application</Link>{" for better life."}
+            {"a Front-end Developer, I make "}<Link to={"projects"} smooth duration={1000}>Application</Link>{" for better life."}
           </h3>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">

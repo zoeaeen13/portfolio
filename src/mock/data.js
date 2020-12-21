@@ -4,6 +4,7 @@ import projectTitch from '../images/project_twitch.gif';
 import projectMessageBoard from '../images/project_messageboard.gif';
 import projectReduxBlog from '../images/project_reduxBlog.gif';
 import projectReactTodolist from '../images/project_reactTodolist.gif';
+import projectReactGame from '../images/project_reactGame.gif'
 import imgAbout from '../images/about.jpg';
 
 // HEAD DATA
@@ -17,7 +18,7 @@ export const headData = {
 export const heroData = {
   title: `Hi, I'm`,
   name: 'Meng-Hua Yu',
-  subtitle: `a Designer & Front-end Developer, I make Application for better life.`,
+  subtitle: `a Front-end Developer, I make Application for better life.`,
   cta: '',
 };
 
@@ -33,10 +34,20 @@ export const projectsData = [
     id: nanoid(),
     img: projectReduxBlog,
     title: 'Redux: Blog',
-    info: 'A blog system enable users to add new posts.',
-    info2: '- Involved in reworking on single page applications using React, ThunkRedux, React-Router',
+    info: 'A blog system that enables users to upload, edit and delete articles.',
+    info2: '- Involved in reworking on single page application using React, Redux and Router',
     url: 'https://zoeaeen13.github.io/lidemy-week24-redux-blog/#/',
-    repo: '',
+    repo: 'https://github.com/zoeaeen13/lidemy-week24-redux-blog',
+  },
+  {
+    id: nanoid(),
+    img: projectReactGame,
+    title: 'Tic Tac Toe & Gobang',
+    info: 'Tic Tac Toe & Gobang are very easy to learn and popular board games, purely strategic chess games of two players.',
+    info2: '- Building a SPA using the reusable components and routers',
+    info3: '- Using React developer tools plugin for debugging',
+    url: 'https://zoeaeen13.github.io/react-game/#/',
+    repo: 'https://github.com/zoeaeen13/react-game',
   },
   {
     id: nanoid(),
@@ -44,9 +55,9 @@ export const projectsData = [
     title: 'React: Todo List',
     info: 'A todo list with React, JSX, styled-component and hooks.',
     info2: '- Developing the presentational styled components with SASS',
-    info3: '- Using hooks for state and effects',
+    info3: '- Using hooks to handle state & side effects',
     url: 'https://zoeaeen13.github.io/lidemy-week21-react-todolist/',
-    repo: '',
+    repo: 'https://github.com/zoeaeen13/lidemy-week21-react-todolist',
   },
   {
     id: nanoid(),
@@ -55,7 +66,7 @@ export const projectsData = [
     info: 'A message board with menber management system.',
     info2: '- Using PDO prepared statement to write queries to prevent SQL Injection',
     url: 'http://oldfish.tw/Demo/week11/messageBoard/index.php',
-    repo: '',
+    repo: 'https://github.com/zoeaeen13/Demo/tree/master/week11/messageBoard',
   },
   {
     id: nanoid(),
@@ -63,7 +74,7 @@ export const projectsData = [
     title: 'Twitch Live Streams',
     info: `A information platform to show live streams of five top games on Twitch.`,
     info2: '- Fetching data from Restful APIs',
-    url: 'http://mentor-program.co/mtr04group6/zoeaeen13/week13/hw3/index.html',
+    url: '',
     repo: '', 
   },
 ];
